@@ -15,6 +15,8 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //======================================== Including the libraries.
+//https://drive.google.com/drive/u/1/folders/1o4-M47w2YQjwfTorCkSH1fGRU_hxTlNk
+
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include "soc/soc.h"
@@ -47,12 +49,12 @@
 #define FLASH_LED_PIN 4
 
 //======================================== Enter your WiFi ssid and password.
-const char* ssid = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid = "INFINITUM5E85";
+const char* password = "k4GQMHfydu";
 //======================================== 
 
 //======================================== Replace with your "Deployment ID" and Folder Name.
-String myDeploymentID = "REPLACE_WITH_YOUR_DEPLOYMENT_ID";
+String myDeploymentID = "AKfycbwlkVTfdy8wbZznucM9zhGSNXuZzN6rVlteSOpSugSDCcEsvQEddtnYSF4rGSV6mP2p";
 String myMainFolderName = "ESP32-CAM";
 //======================================== 
 
