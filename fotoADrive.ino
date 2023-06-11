@@ -359,7 +359,7 @@ void setup() {
   // -QVGA   = 320 x 240   pixels
   // -HQVGA  = 240 x 160   pixels
   // -QQVGA  = 160 x 120   pixels
-  s->set_framesize(s, FRAMESIZE_SXGA);  //--> UXGA|SXGA|XGA|SVGA|VGA|CIF|QVGA|HQVGA|QQVGA
+  s->set_framesize(s, FRAMESIZE_SVGA);  //--> UXGA|SXGA|XGA|SVGA|VGA|CIF|QVGA|HQVGA|QQVGA
 
   Serial.println("Setting the camera successfully.");
   Serial.println();
